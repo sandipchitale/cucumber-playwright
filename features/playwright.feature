@@ -10,4 +10,4 @@ Feature: Playwright docs
     Then We see "light" mode
     When Change theme to "dark" mode
     Then Snapshot
-
+    Then Google
