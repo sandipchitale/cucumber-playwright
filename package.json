@@ -42,7 +42,7 @@
     "cucumber-pretty": "^6.0.0",
     "cucumber-tsflow": "^4.0.0-rc.1",
     "expect": "27.0.6",
-    "playwright": "^1.13.1"
+    "playwright": "^1.15.1"
   },
   "devDependencies": {
     "@types/expect": "24.3.0",
