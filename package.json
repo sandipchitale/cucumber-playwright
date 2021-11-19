@@ -18,6 +18,7 @@
     "snippets": "cucumber-js features/**/*.feature --dry-run --format snippets",
     "steps-usage": "cucumber-js features/**/*.feature --dry-run",
     "all": "cucumber-js features/**/*.feature",
+    "cucumber-js": "node node_modules/@cucumber/cucumber/bin/cucumber-js",
     "test": "cucumber-js"
   },
   "engines": {
@@ -34,10 +35,9 @@
   },
   "homepage": "https://github.com/tallyb/cucumber-playwright#readme",
   "dependencies": {
-    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/cucumber": "^8.0.0-rc.1",
     "@cucumber/html-formatter": "16.0.1",
-    "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
-    "cucumber-console-formatter": "1.0.0",
+    "cucumber-console-formatter": "^1.0.0",
     "cucumber-html-reporter": "^5.4.0",
     "cucumber-pretty": "^6.0.0",
     "cucumber-tsflow": "^4.0.0-rc.1",
@@ -54,7 +54,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-prettier": "3.4.0",
-    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react": "^7.27.0",
     "open": "^8.2.1",
     "prettier": "2.3.2",
     "rimraf": "3.0.2",
